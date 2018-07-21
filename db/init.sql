@@ -1,13 +1,13 @@
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
-  username VARCHAR(20),
-  password VARCHAR(20), 
+  username TEXT,
+  password TEXT, 
   profile_pic TEXT
 ); 
-
+ç
 CREATE TABLE posts (
 id SERiAL PRIMARY KEY,
-title VARCHAR(45),
+title TEXT,
 img TEXT,
 content TEXT,
 author_id INTEGER REFERENCES users (id)

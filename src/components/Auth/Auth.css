@@ -1,0 +1,28 @@
+
+.authBox {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    max-width: 500px;
+    background: #FF70A6;
+    align-items: center;
+}
+
+.heloLogo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.heloHeader {
+    color: white;
+}
+
+.loginLine {
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 100%;
+}
